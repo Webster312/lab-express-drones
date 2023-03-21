@@ -8,7 +8,6 @@ const droneSchema = new Schema(
         maxSpeed: Number
     },
     {
-        // this second object adds extra properties: `createdAt` and `updatedAt`    
         timestamps: true
     }
 );
